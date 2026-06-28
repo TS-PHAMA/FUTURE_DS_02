@@ -102,29 +102,6 @@ Reducing churn by **5 percentage points** (26.5% → 21.5%) would retain **350 c
 
 ---
 
-## 📁 Repository Structure
-FUTURE_DS_02/
-├── data/
-│ ├── raw/ # Original Telco dataset
-│ └── cleaned/ # Processed clean data
-│
-├── scripts/
-│ ├── 00_setup.R # Package installation
-│ ├── 01_data_cleaning.R # Import, clean, feature engineering
-│ ├── 02_churn_analysis.R # Churn KPIs & visualizations
-│ └── 03_statistical_analysis.R # Chi-square, Cramer's V, logistic regression
-│
-├── outputs/
-│ ├── figures/ # 8 publication-quality charts
-│ └── tables/ # All analysis results (CSV)
-│
-├── report/
-│ └── churn_report.tex # Overleaf/LaTeX professional report
-│
-├── README.md
-└── LICENSE
-
-
 ---
 
 ## 📸 Visualizations
