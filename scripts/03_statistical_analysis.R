@@ -9,6 +9,7 @@ library(broom)
 library(gridExtra)
 
 # Load cleaned data
+
 churn <- read.csv("data/cleaned/telco_churn_clean.csv")
 churn <- churn %>% mutate(across(where(is.character), as.factor))
 
